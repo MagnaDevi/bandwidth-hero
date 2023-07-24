@@ -12,5 +12,3 @@ RUN npm install; npm audit fix --force; npm install caniuse-lite; npx browsersli
 
 # Expose port 80
 EXPOSE 80
-
-RUN npm run build;
