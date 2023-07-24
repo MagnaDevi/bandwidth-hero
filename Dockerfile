@@ -8,9 +8,9 @@ WORKDIR /app
 COPY . /app
 
 # Install the application dependencies
-RUN npm install; npm audit fix --force; npm install caniuse-lite; npx browserslist@latest --update-db; 
+RUN npm install; npm install caniuse-lite; npx browserslist@latest --update-db; 
 
-# Expose port 220
-EXPOSE 220
+# Expose port 80
+EXPOSE 80
 
-CMD tail -f /dev/null
+RUN npm --no-healthcheck
