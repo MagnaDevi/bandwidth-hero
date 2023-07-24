@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install the application dependencies
-RUN npm install; npm install caniuse-lite 
+RUN npm install; npm audit fix --force; npm install caniuse-lite; npx browserslist@latest --update-db; 
 
 # Define the entry point for the container
 CMD ["npm", "start"]
