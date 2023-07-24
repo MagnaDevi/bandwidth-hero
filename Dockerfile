@@ -8,9 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install the application dependencies
-RUN npm install; npm install caniuse-lite; npx browserslist@latest --update-db; 
+RUN npm install --no-healthcheck; npm install caniuse-lite; npx browserslist@latest --update-db; 
 
 # Expose port 80
 EXPOSE 80
-
-RUN npm --no-healthcheck
