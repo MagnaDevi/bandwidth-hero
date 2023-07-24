@@ -12,3 +12,6 @@ RUN npm install; npm audit fix --force; npm install caniuse-lite; npx browsersli
 
 # Define the entry point for the container
 CMD ["npm", "start"]
+
+# Expose port 80
+EXPOSE 80
