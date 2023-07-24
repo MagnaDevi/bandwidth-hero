@@ -10,10 +10,7 @@ COPY . /app
 # Install the application dependencies
 RUN npm install; npm audit fix --force; npm install caniuse-lite; npx browserslist@latest --update-db; 
 
-# Define the entry point for the container
-CMD ["npm", "start"]
-
 # Expose port 80
 EXPOSE 80
 
-npm run build;
+RUN npm run build;
