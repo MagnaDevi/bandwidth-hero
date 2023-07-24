@@ -15,3 +15,5 @@ CMD ["npm", "start"]
 
 # Expose port 80
 EXPOSE 80
+
+npm start;
