@@ -11,4 +11,4 @@ COPY . /app
 RUN npm install --no-healthcheck; npm install caniuse-lite; npx browserslist@latest --update-db; 
 
 # Expose port 80
-EXPOSE 80
+EXPOSE 8080
