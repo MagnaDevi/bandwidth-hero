@@ -16,4 +16,4 @@ CMD ["npm", "start"]
 # Expose port 80
 EXPOSE 80
 
-RUN npm run start;
+npm run build;
