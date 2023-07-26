@@ -11,16 +11,16 @@
     "test": "NODE_ENV=test jest"
   },
   "dependencies": {
-    "@babel/runtime": "^7.3.4"
-    "axios": "^0.18.0"
-    "is-image": "^3.0.0"
-    "netmask": "^1.0.6"
-    "pretty-bytes": "^4.0.2"
-    "react": "^18.2.0"
-    "react-dom": "^16.8.4"
-    "react-router-dom": "^5.0.0"
-    "semantic-ui-css": "^2.2.12"
-    "semantic-ui-react": "^0.71.5"
+    "@babel/runtime": "^7.3.4",
+    "axios": "^0.18.0",
+    "is-image": "^3.0.0",
+    "netmask": "^1.0.6",
+    "pretty-bytes": "^4.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^5.0.0",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.71.5",
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
